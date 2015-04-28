@@ -1,6 +1,6 @@
 {
   "name": "my-proxy",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "pretty simple http(s) proxy",
   "main": "lib/index.js",
   "bin": {
