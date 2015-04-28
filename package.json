@@ -1,0 +1,32 @@
+{
+  "name": "my-proxy",
+  "version": "0.0.0",
+  "description": "pretty simple http(s) proxy",
+  "main": "lib/index.js",
+  "bin": {
+    "my-proxy": "bin/my-proxy.js"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/eslint lib bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:esnunes/my-proxy.git"
+  },
+  "author": "Eduardo Nunes <esnunes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esnunes/my-proxy/issues"
+  },
+  "homepage": "https://github.com/esnunes/my-proxy",
+  "dependencies": {
+    "babel": "^5.1.13",
+    "commander": "^2.7.1",
+    "http-proxy": "^1.10.1",
+    "lodash": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.0.1",
+    "eslint": "^0.20.0"
+  }
+}
