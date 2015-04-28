@@ -15,10 +15,10 @@ npm install -g my-proxy
 
     -h, --help         output usage information
     -V, --version      output the version number
-    -b, --bind [host]  Bind to host [0.0.0.0]
-    -p, --port [port]  Listen on port [3128]
-    -v, --verbose      Verbose mode
-    -q, --quiet        Quiet mode
+    -b, --bind [host]  bind to host [0.0.0.0]
+    -p, --port [port]  listen on port [3128]
+    -v, --verbose      verbose mode
+    -q, --quiet        quiet mode
 ```
 
 ### example
