@@ -1,6 +1,8 @@
 # my-proxy
 
-pretty simple https(s) proxy.
+my-proxy is an HTTP(S) Proxy that enables a developer to access internal networks (localhost, VMs, Docker containers) from external devices as they were in the host computer.
+
+<img src="./docs/usage-example.png" style="width: 100%;" />
 
 ## install instructions
 ```bash
@@ -29,3 +31,5 @@ my-proxy
 
 ## todo
 - [ ] add proxy authentication
+- [ ] filter requests (something similar to tcpdump)
+- [ ] simulate mobile networking conditions (Edge, 3G and even offline)
