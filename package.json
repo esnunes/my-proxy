@@ -22,6 +22,7 @@
   "dependencies": {
     "babel": "^5.1.13",
     "commander": "^2.7.1",
+    "escape-regexp": "0.0.1",
     "http-proxy": "^1.10.1",
     "lodash": "^3.6.0"
   },
