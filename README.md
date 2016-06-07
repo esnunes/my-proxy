@@ -2,7 +2,7 @@
 
 my-proxy is an HTTP(S) Proxy that enables a developer to access internal networks (localhost, VMs, Docker containers) from external devices as they were in the host computer.
 
-Read [How to access docker containers from external devices](http://blog.nunes.io/2015/05/02/how-to-access-docker-containers-from-external-devices.html) for more information.
+Read [How to access docker containers from external devices](http://nunes.io/blog/how-to-access-docker-containers-from-external-devices/) for more information.
 
 <img src="./docs/usage-example.png" style="width: 100%;" />
 
