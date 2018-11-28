@@ -1,8 +1,11 @@
 {
   "name": "my-proxy",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "pretty simple http(s) proxy",
   "main": "lib/index.js",
+  "engines": {
+    "node": ">=10.14.0"
+  },
   "bin": {
     "my-proxy": "bin/my-proxy.js"
   },
@@ -20,14 +23,12 @@
   },
   "homepage": "https://github.com/esnunes/my-proxy",
   "dependencies": {
-    "babel": "^5.1.13",
     "commander": "^2.7.1",
     "escape-regexp": "0.0.1",
     "http-proxy": "^1.10.1",
-    "lodash": "^3.6.0"
+    "lodash": "^4.17.11"
   },
   "devDependencies": {
-    "babel-eslint": "^3.0.1",
-    "eslint": "^0.20.0"
+    "eslint": "^5.9.0"
   }
 }
